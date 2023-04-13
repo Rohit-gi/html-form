@@ -1,22 +1,115 @@
-
 body {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.header{
-    background-color: rgb(112, 201, 112);
-    /* display: block; */
-    margin: 0px;
-    padding: 5px 20px;
-    /* padding-left: 100px; */
-    color: white;
+.header {
+  background-color: rgb(112, 201, 112);
+  /* display: block; */
+  margin: 0px;
+  padding: 5px 20px;
+  /* padding-left: 100px; */
+  color: white;
 }
 
-.navbar{
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+.list {
+  list-style-type: none;
+}
+
+.list-item {
+  display: inline;
+  padding-right: 20px;
+}
+
+.right-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+  height: 550px;
+}
+
+.section-left {
+  display: flex;
+  flex-basis: 60%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 100px;
+  background-color: #4caf50;
+}
+
+.section-right {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  background-color: rgb(112, 201, 112);
+}
+
+.para {
+  margin-top: 1px;
+}
+
+.free-button {
+  height: 50px;
+  margin-top: 20px;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50; /* Green */
+}
+
+.enquiry-form {
+  margin: 30px 30px;
+  padding: 20px 0;
+  border: 1px solid black;
+  background-color: white;
+  border: 0;
+}
+
+.enquiry-form > h2 {
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+
+.form-group > input {
+  height: 30px;
+}
+
+.enquiry-form > button {
+  margin: 0 auto;
+  display: block;
+  width: 405px;
+  height: 35px;
+  margin-top: 6px;
+  background-color: #4caf50;
+  color: white;
+  border: 0;
+  font-size: medium;
+}
+
+.form-group > label {
+  padding: 4px 0px;
 }
